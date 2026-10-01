@@ -1,8 +1,18 @@
 # Bhante G Dhamma Library
 
-A responsive reading library containing ten recent Bhante Gunaratana Dhamma talks and Q&A sessions, concise overviews, longer summary popups, individual reading pages, the supplied Ānāpānasati manuscript PDF, and the narrated Ānāpānasati video. The initial collection spans August 29–September 27, 2026. Pali classes are excluded.
+A responsive reading library with Bhante Gunaratana Dhamma talks and Q&A sessions, concise overviews, longer summary popups, individual reading pages, the supplied Ānāpānasati manuscript PDF, and the narrated Ānāpānasati video. The homepage shows the ten newest published talks by talk date. The complete collection is available at `/talks/`. The initial ten entries span August 29–September 27, 2026. Pali classes are excluded.
 
-The public site is ready to upload to Netlify. Shared editing is implemented with Decap CMS, GitHub Open Authoring, and a review workflow. **Live shared sign-in is not connected yet:** it needs your GitHub repository and Netlify OAuth setup. No credentials are included.
+The public site builds for Netlify. Shared editing uses Decap CMS, GitHub Open Authoring, and a review workflow. Owner sign-in has been confirmed on the live site; the external-contributor pull-request workflow still needs an account-level test. No credentials are included.
+
+## Browse the collection
+
+The homepage updates automatically after each publication/build; older talks remain in All talks. No manual moving or archiving is needed. The book, video, and contribution workflow are unchanged.
+
+All talks supports keyword search across titles, topics, concise overviews, and full summaries; accents and letter case are ignored. From/To dates include both boundary dates and may be used separately. Dhamma/Q&A filters combine with search and dates. Results are newest first, with ten per page. Filters and the current page are stored in the URL so searches can be bookmarked or shared. Closing a summary popup retains the current results.
+
+Static numbered pages keep the entire collection browsable without JavaScript. Search becomes available after the collection loads; if that fails, the page offers a retry while retaining the static list and page links. Individual summary links remain readable without the popup.
+
+For the connected GitHub/Netlify site, review changes in GitHub Desktop, commit them, and push to `main` to trigger the deployment. There is no separate content migration.
 
 ## Preview locally
 
@@ -31,7 +41,7 @@ For ongoing contributions, use the **source project**, not the built `dist` fold
 2. In Netlify, import that GitHub repository. Build command: `npm run build`. Publish directory: `dist`. Node version: `22`. These settings are also in `netlify.toml`.
 3. Add the public build settings `GITHUB_REPOSITORY=your-account/your-repository` and `SITE_URL=https://your-site.netlify.app`. Use your actual repository and site address, then redeploy.
 4. Complete the GitHub OAuth app and Netlify provider connection in [the shared-editor setup guide](docs/SHARED-EDITOR.md).
-5. Test `/admin/` as the owner and with a contributor account before inviting people. This final account-dependent authentication test remains outstanding.
+5. Test `/admin/` as the owner and with a contributor account before inviting people. Owner sign-in is confirmed for the current deployment; external-contributor submission and review remain to be tested.
 
 Outside contributors sign in with GitHub, prepare entries in their forks, and submit pull requests for review. You review and merge approved contributions. New entries start with public listing off. The `published` field is a listing control; GitHub permissions and review rules provide access control.
 
@@ -53,23 +63,34 @@ For reliable summaries:
 
 The first ten entries were generated using the existing StillWord local model engine and edited against complete transcripts. They are reviewed reading aids, not word-for-word transcripts. Original engine outputs and captions remain in the private working folder, outside the site and distribution archives. No changes were made to StillWord for this website.
 
+## Embedded book reader
+
+Choose **Read the book here** to expand the reader beneath the book and video. It loads only when opened. The reader provides previous/next pages, a page-number field, zoom, text selection, search, and the PDF's existing contents links. **Open in new tab** opens `/book/` at the same page and zoom. Closing and reopening the embedded reader retains its place. Direct PDF opening and downloading remain available as fallbacks.
+
+Replace `public/assets/books/Anapanasati_manuscript.pdf` with the revised manuscript, keeping that exact name, then rebuild and publish. Both readers and the download use that file; the reader calculates its page count from the document. The current PDF and its editorial credits have not been modified. If the cover changes, update `public/assets/books/book-cover.webp` as well.
+
+The viewer is Mozilla PDF.js 6.3.289 (legacy generic build), hosted entirely with this site. Its license, bundled resource licenses, source URL, and integrity manifest are in `public/assets/pdfjs/`. No external PDF-viewing service receives the manuscript. Site-specific styling and reader behavior live outside the vendored code, except for four documented changes to `web/viewer.html`. Keep the matching viewer, worker, fonts, CMaps, and supporting files together when upgrading. The local preview server supplies the required JavaScript-module and WebAssembly MIME types.
+
 ## Files to customize
 
 The Contribute section includes optional StillWord 1.0.0 downloads for Apple silicon and Intel Macs, clearly labeled as unsigned test builds. Installers are hosted on the [StillWord v1.00 GitHub release](https://github.com/CriticalAttentionSystems/StillWord/releases/tag/v1.00), not bundled with the website. The published Intel asset is named `StillWord-1.0.0-Intel--unsigned.dmg` (two hyphens before `unsigned`); preserve that exact URL. Update the links in `templates/index.html` when a new release is published. The shared editor remains the main contribution route.
 
 | Purpose | File or folder |
 | --- | --- |
-| Page structure and book information | `templates/index.html` |
+| Homepage structure and book information | `templates/index.html` |
+| Complete collection page | `templates/talks.html` |
 | Colors, layout, type sizes | `public/assets/site.css` |
-| Search, filters, summary popups | `public/assets/site.js` |
+| Search, filters, summary popups | `public/assets/site.js`, `public/assets/talks.js` |
 | Talk content | `content/talks` |
 | Shared-editor fields | `templates/admin-config.yml` |
 | Book PDF and artwork | `public/assets/books` |
+| Embedded reader and pop-out page | `public/assets/book-reader.js`, `public/assets/book-view.js`, `public/book/index.html` |
+| Reader setup and visual style | `public/assets/book-viewer-bootstrap.js`, `public/assets/book-viewer.css` |
 | Narrated video and poster | `public/assets/video` |
 | Build and validation | `scripts/build.mjs`, `scripts/content.mjs` |
 | Separate concise/Auto text exports | `summaries` |
 
-The 31 MB video is included locally and does not autoplay. Video viewing uses your Netlify bandwidth; monitor the site's usage as the audience grows. The supplied PDF, The Ānāpānasati Sutta: A Path to Awakening by Bhante Gunaratana, has 154 pages (13.3 MB). It is copied unchanged and retains its contents links.
+The 31 MB video is included locally and does not autoplay. Video viewing uses your Netlify bandwidth; monitor the site's usage as the audience grows. The supplied PDF, The Ānāpānasati Sutta: A Path to Awakening by Bhante Gunaratana, has 157 pages (6.5 MB). It is copied unchanged and retains its contents links.
 
 ## Validation
 
@@ -78,7 +99,7 @@ npm test
 npm run build
 ```
 
-Automated checks cover content validation, safe summary rendering, unpublished entries, duplicate videos, and video range requests. Browser checks verified filtering, search, empty results, summary popups and keyboard closing, all ten reading pages, PDF delivery, video playback and seeking, and layouts at desktop, 390 px, and 320 px widths. Production GitHub login and contributor pull requests require the live account setup above.
+Automated checks cover content validation, safe summary rendering, unpublished entries, duplicate videos, video range requests, and archive filtering/pagination. A build test with 24 published talks verifies the homepage limit, complete numbered archive, reading pages, and sitemap. Browser checks verified filtering, search, empty results, summary popups and keyboard closing, date validation, URL restoration, and layouts at desktop, 390 px, and 320 px widths. Earlier checks covered all ten reading pages, PDF delivery, and video playback/seeking. External-contributor pull requests still need the account-level test above.
 
 Developer and curator: Veronique — [Critical Attention Systems](https://criticalattentionsystems.org) — criticalattentionsystems@gmail.com.
 

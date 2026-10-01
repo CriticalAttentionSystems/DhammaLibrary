@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All talks{{PAGE_TITLE}} · Dhamma Library</title>
+  <meta name="description" content="Explore Bhante Gunaratana’s Dhamma talks and Q&A sessions. Search the summaries by topic and filter by date.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script type="module" src="/assets/site.js"></script>
+  {{CANONICAL}}
+</head>
+<body>
+  <a class="skip-link" href="#talks">Skip to talks</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="Dhamma Library home"><img src="/assets/favicon.svg" alt="" width="37" height="37"><span>Dhamma Library<small>THE TEACHINGS OF BHANTE G</small></span></a>
+    <nav aria-label="Main navigation"><a href="/#talks">Latest talks</a><a href="/talks/" aria-current="page">All talks</a><a href="/#book">Book & video</a><a href="/#contribute">Contribute</a><a href="/#about">About</a></nav>
+  </header>
+  <main class="library archive wrap" id="talks" aria-labelledby="talks-title" data-archive>
+    <div class="section-heading"><div><p class="eyebrow">THE COMPLETE COLLECTION</p><h1 id="talks-title" tabindex="-1">All talks</h1><p class="section-description">Find a teaching by topic, date, or type of talk.</p></div></div>
+    <form class="archive-search" id="archive-search" role="search" hidden>
+      <label for="talk-search">Search talks or topics<input type="search" id="talk-search" name="q" placeholder="Try concentration or loving-friendliness" autocomplete="off"></label>
+      <label for="date-from">From<input type="date" id="date-from" name="from" aria-describedby="date-error"></label>
+      <label for="date-to">To<input type="date" id="date-to" name="to" aria-describedby="date-error"></label>
+    </form>
+    <p class="date-error" id="date-error" role="alert" hidden>The From date must be on or before the To date.</p>
+    <div class="library-controls archive-toolbar">
+      <div class="filters" role="group" aria-label="Filter by type" id="archive-types" hidden><button type="button" data-filter="all" aria-pressed="true">All talks</button><button type="button" data-filter="Dhamma talk" aria-pressed="false">Dhamma talks</button><button type="button" data-filter="Q&A" aria-pressed="false">Q&A</button></div>
+      <div class="archive-count"><p class="collection-count" id="result-count" aria-live="polite">{{COUNT}} talks · Newest first</p><button type="button" class="text-link" id="clear-filters" hidden>Clear filters</button></div>
+    </div>
+    <noscript><p class="small muted">Browse every talk using the page links below. Enable JavaScript to search and filter the collection.</p></noscript>
+    <p class="small muted" id="archive-error" role="status" hidden>Search could not load. You can still browse the talks using the page links below. <button type="button" class="text-link" id="retry-archive">Try again</button></p>
+    <div class="talk-list" id="talk-list">{{TALK_ROWS}}</div>
+    <div class="empty-state" id="empty-state" hidden><h2>No talks match these filters.</h2><p>Try another topic or a wider date range.</p><button type="button" class="button" id="reset-filters">Clear filters</button></div>
+    <div class="archive-pages"><p class="small muted" id="page-status" aria-live="polite">{{PAGE_STATUS}}</p><div id="talk-pagination">{{PAGINATION}}</div></div>
+  </main>
+  {{FOOTER}}
+  {{SUMMARY_DIALOG}}
+</body>
+</html>

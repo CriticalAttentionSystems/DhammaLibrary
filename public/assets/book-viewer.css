@@ -1,0 +1,41 @@
+/* Dhamma Library reading skin; upstream PDF.js layout and accessibility retained. */
+:root {
+  color-scheme: light;
+  --main-color: #243c2f;
+  --body-bg-color: #e6e4d9;
+  --toolbar-bg-color: #f5f1e6;
+  --toolbar-border-color: #cecfc1;
+  --sidebar-toolbar-bg-color: #f5f1e6;
+  --toolbar-icon-bg-color: #285440;
+  --toolbar-icon-hover-bg-color: #173b28;
+  --field-color: #243c2f;
+  --field-bg-color: #fffefa;
+  --field-border-color: #b6bcad;
+  --progressBar-color: #285440;
+  --progressBar-blend-color: #799b7a;
+  --doorhanger-bg-color: #faf8f2;
+  --doorhanger-hover-color: #243c2f;
+  --button-hover-color: #dfe6d7;
+  --dropdown-btn-bg-color: #e3e7da;
+}
+#editorModeButtons,#editorModeSeparator,#openFile,#printButton,#downloadButton {display:none!important}
+.pdfViewer .page {box-shadow:0 4px 24px #243c2f20}
+#toolbarViewer {padding-inline:8px}
+#pageNumber {font-size:15px}
+.toolbarLabel {font-size:13px}
+@media(max-width:600px) {
+  html[data-toolbar-density="touch"] {--toolbar-height:88px}
+  #mainContainer {min-width:0}
+  #toolbarContainer {padding:0}
+  #toolbarViewerRight {display:none!important}
+  #toolbarViewer {display:grid;grid-template-rows:44px 44px;grid-template-columns:1fr;padding-inline:4px;gap:0}
+  #toolbarViewerLeft,#toolbarViewerMiddle {height:44px;justify-content:center}
+  #toolbarViewerLeft>.hiddenSmallView {display:inline-flex!important}
+  #toolbarViewerLeft>.hiddenSmallView>.toolbarButton {display:inline-flex!important}
+  #toolbarViewerLeft>.toolbarButtonSpacer {display:none}
+  #toolbarViewer .toolbarButton {height:40px;min-width:40px;width:40px}
+  #pageNumber {width:38px;height:32px}
+  #numPages {padding-inline:2px}
+  #scaleSelectContainer {display:inline-flex;height:36px;min-width:125px}
+  #toolbarViewerMiddle .splitToolbarButtonSeparator {display:none}
+}
