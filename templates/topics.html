@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Explore topics · Dhamma Library</title>
+  <meta name="description" content="Discover the Dhamma, one topic at a time. Browse Bhante Gunaratana’s recordings by subject and listen on YouTube.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/topics.css">
+  <script type="module" src="/assets/topics.js"></script>
+  {{CANONICAL}}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to topics</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="Dhamma Library home"><img src="/assets/favicon.svg" alt="" width="37" height="37"><span>Dhamma Library<small>THE TEACHINGS OF BHANTE G</small></span></a>
+    <nav aria-label="Main navigation"><a href="/#talks">Latest talks</a><a href="/talks/">All talks</a><a href="/topics/" aria-current="page">Explore topics</a><a href="/#book">Book & video</a><a href="/#contribute">Contribute</a><a href="/#about">About</a></nav>
+  </header>
+  <main id="main" class="topics-browser wrap">
+    <section id="topics-view" aria-labelledby="topics-heading">
+      <div class="topics-hero"><div><p class="topics-eyebrow">EXPLORE THE TEACHINGS</p><h1 id="topics-heading" tabindex="-1">Discover the Dhamma,<br>one topic at a time</h1><p class="topics-hero-description">Choose a subject. Find a talk.<br>Listen to Bhante G in his own words.</p></div><aside class="topics-hero-note"><span aria-hidden="true">❧</span><p>A little time to listen.<br>A teaching to return to.</p></aside></div>
+      <div class="topics-section-heading"><div><p class="topics-eyebrow">BROWSE BY SUBJECT</p><h2>Where would you like to begin?</h2></div><a href="#talks/all" class="topics-text-link" id="topics-browse-all" hidden>Browse all talks <span aria-hidden="true">→</span></a></div>
+      <p class="topics-loading" id="topics-loading" role="status" hidden>Loading topics…</p>
+      <div id="topic-directory" class="topics-directory">{{TOPIC_CARDS}}</div>
+      <noscript><p class="topics-notice">Enable JavaScript to browse and search recordings here. These topic links open the original Bhavana Society archive.</p></noscript>
+    </section>
+    <section id="topics-talks-view" aria-labelledby="topics-title" hidden>
+      <a href="#topics" class="topics-back-link">← Explore topics</a>
+      <div class="topics-intro"><div><p class="topics-eyebrow">LISTEN &amp; REFLECT</p><h1 id="topics-title" tabindex="-1"></h1><p id="topics-description" class="topics-muted"></p></div><a id="topics-original-category" target="_blank" rel="noopener noreferrer" class="topics-text-link">Original archive category ↗</a></div>
+      <form class="topics-filter-bar" id="topics-filters" role="search">
+        <label class="topics-search-label" for="topics-search">Search these talk titles<span class="topics-search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg><input id="topics-search" type="search" placeholder="A word or subject…" autocomplete="off"></span></label>
+        <label for="topics-format">Type<select id="topics-format"><option value="all">All talks</option><option value="qa">Q&amp;A in title</option><option value="other">Other recordings</option></select></label>
+        <button type="button" id="topics-clear-search" class="topics-text-button">Clear filters</button>
+      </form>
+      <div class="topics-results-bar"><p id="topics-result-count" role="status" tabindex="-1"></p><p>Talks open in YouTube.</p></div>
+      <div id="topics-talk-list"></div>
+      <div class="topics-pagination"><button type="button" id="topics-previous-page" class="topics-button">← Previous</button><span id="topics-page-status" aria-live="polite"></span><button type="button" id="topics-next-page" class="topics-button">Next →</button></div>
+    </section>
+    <div id="topics-error" class="topics-notice" role="alert" hidden></div>
+    <section class="topics-catalog-note" aria-label="About the topic index"><div><p class="topics-eyebrow">CONNECTED THROUGH THE ORIGINAL RECORDINGS</p><p id="topics-catalog-credit">The topic index comes from <a href="https://bhavana-society.github.io/all-1.html" target="_blank" rel="noopener noreferrer">Bhavana Society’s public archive</a>. Recordings stay on YouTube.</p><p class="topics-catalog-status" id="topics-refresh-status" role="status"></p></div><button type="button" class="topics-button" id="topics-refresh-button" hidden>Refresh archive</button></section>
+  </main>
+  {{FOOTER}}
+</body>
+</html>

@@ -14,6 +14,14 @@ Static numbered pages keep the entire collection browsable without JavaScript. S
 
 For the connected GitHub/Netlify site, review changes in GitHub Desktop, commit them, and push to `main` to trigger the deployment. There is no separate content migration.
 
+## Explore topics and listen
+
+**Explore topics** in the main navigation opens `/topics/`: the topic cards connect to searchable, paginated lists of original recordings. The title is “Discover the Dhamma, one topic at a time.” This is a listening feature; it does not add archive entries to the summarized-talk collection or the contribution queue.
+
+A bundled metadata index keeps browsing available immediately. A Netlify Function checks the archive when the shared index is older than 24 hours; **Refresh archive** can request an earlier check, with a short shared cooldown. Only archive titles, topic labels, video IDs, and links are stored. New uploads are discovered only after they appear in the source archive. A failed refresh preserves the last valid index.
+
+The Git-connected Netlify build deploys the refresh function along with the site. The function uses a site-specific Netlify Blobs cache; no visitor sign-in or custom API key is needed. A plain drag-and-drop upload of `dist` provides the saved catalog only, without live refresh. The local `npm run preview` server supports the same endpoint with a local cache. See [topic browsing and refresh](docs/TOPICS.md).
+
 ## Find missing talks and avoid duplicate work
 
 Open **Contribute → Find a talk to contribute**. The six-month channel inventory separates available candidates, uncertain videos, exclusions, published talks, reservations, and submissions awaiting review. Contributors reserve a video with GitHub before preparing a summary. The page checks live contributions by the exact YouTube video ID, including unpublished main-branch entries and open pull requests.
@@ -22,14 +30,15 @@ See [the contribution guide](docs/CONTRIBUTIONS.md) for the reservation workflow
 
 ## Preview locally
 
-Install Node.js 22 or later, open a terminal in this project directory, then run:
+Install Node.js 22.12 or later, open a terminal in this project directory, then run:
 
 ```sh
+npm ci
 npm run build
 npm run preview
 ```
 
-Open `http://127.0.0.1:4173`. Stop the server with Control-C. There are no npm dependencies to install; the editor is vendored locally. Open the site through a server rather than double-clicking the HTML file, since links and summary loading use site-root paths.
+Open `http://127.0.0.1:4173`. Stop the server with Control-C. Run `npm ci` after pulling dependency changes; the editor remains vendored locally. Open the site through a server rather than double-clicking the HTML file, since links and summary loading use site-root paths.
 
 ## Upload the public website now
 
@@ -85,6 +94,8 @@ The Contribute section includes optional StillWord 1.0.0 downloads for Apple sil
 | --- | --- |
 | Homepage structure and book information | `templates/index.html` |
 | Complete collection page | `templates/talks.html` |
+| Topic browsing and source archive | `templates/topics.html`, `public/assets/topics.js`, `public/assets/topics.css`, `public/data/topic-archive.json` |
+| Archive refresh service | `netlify/functions/topic-archive.mjs`, `scripts/topic-archive-core.mjs`, `scripts/topic-archive-service.mjs` |
 | Colors, layout, type sizes | `public/assets/site.css` |
 | Search, filters, summary popups | `public/assets/site.js`, `public/assets/talks.js` |
 | Talk content | `content/talks` |

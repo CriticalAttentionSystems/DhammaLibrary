@@ -1,5 +1,5 @@
 import http from 'node:http';
-import { stat } from 'node:fs/promises';
+import { stat, readFile } from 'node:fs/promises';
 import { createReadStream } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -13,8 +13,31 @@ export function byteRange(header,size) {
   const end = match[1] && match[2] ? Math.min(size-1,Number(match[2])) : size-1;
   return Number.isSafeInteger(start) && Number.isSafeInteger(end) && start >= 0 && start <= end && start < size ? {start,end} : null;
 }
+let topicServicePromise;
+async function topicService() {
+  if (!topicServicePromise) {
+    topicServicePromise = (async () => {
+      const { createArchiveService, createFileStore } = await import('./topic-archive-service.mjs');
+      const snapshot = JSON.parse(await readFile(new URL('../public/data/topic-archive.json',import.meta.url),'utf8'));
+      const cacheFile = fileURLToPath(new URL('../work/topic-archive-cache.json',import.meta.url));
+      return createArchiveService({snapshot,store:createFileStore(cacheFile)});
+    })().catch(error => {topicServicePromise=undefined;throw error;});
+  }
+  return topicServicePromise;
+}
 export const server = http.createServer(async (request,response) => {
   try {
+    if (new URL(request.url,'http://localhost').pathname === '/.netlify/functions/topic-archive') {
+      const port = server.address().port;
+      const host = request.headers.host;
+      if (![`localhost:${port}`,`127.0.0.1:${port}`].includes(host)) {response.writeHead(403).end();return;}
+      if ((request.headers['content-length'] && request.headers['content-length'] !== '0') || request.headers['transfer-encoding']) {response.writeHead(400).end('This endpoint takes no request body.');return;}
+      const service = await topicService();
+      const result = await service.handle(new Request(`http://${host}${request.url}`,{method:request.method,headers:request.headers}));
+      response.writeHead(result.status,Object.fromEntries(result.headers));
+      response.end(Buffer.from(await result.arrayBuffer()));
+      return;
+    }
     if (!['GET','HEAD'].includes(request.method)) {response.writeHead(405,{'Allow':'GET, HEAD'}).end(); return;}
     const pathname = decodeURIComponent(new URL(request.url,'http://localhost').pathname);
     let file = path.resolve(root,'.'+pathname);

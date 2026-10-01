@@ -249,10 +249,11 @@ test('unfiltered pagination links resolve to the correct archive slice without q
 test('the production build keeps ten latest talks, three complete archive pages, and all reading pages',async()=>{
   const temporaryRoot = await mkdtemp(path.join(tmpdir(),'dhamma-archive-test-'));
   try {
-    await Promise.all(['scripts','templates','public/assets','public/admin','content/talks'].map(directory=>mkdir(path.join(temporaryRoot,directory),{recursive:true})));
+    await Promise.all(['scripts','templates','public/assets','public/data','public/admin','content/talks'].map(directory=>mkdir(path.join(temporaryRoot,directory),{recursive:true})));
     await Promise.all([
       'scripts/build.mjs','scripts/content.mjs','scripts/contribution-data.mjs','public/assets/talks.js','templates/contribute-talks.html',
-      'templates/index.html','templates/talks.html','templates/admin-config.yml'
+      'templates/index.html','templates/talks.html','templates/admin-config.yml',
+      'templates/topics.html','public/assets/topic-catalog.js','public/data/topic-archive.json'
     ].map(file=>copyFile(new URL(`../${file}`,import.meta.url),path.join(temporaryRoot,file))));
     await writeFile(path.join(temporaryRoot,'package.json'),JSON.stringify({type:'module'}));
     await writeFile(path.join(temporaryRoot,'content/discovery.json'),JSON.stringify({version:1,complete:true,warnings:[],checkedAt:'2026-10-01T12:00:00Z',scope:{months:6,since:'2026-04-01',until:'2026-10-01'},videos:[{youtubeId:'AbCdEfGhI_1',title:'A </script><script>alert(1)</script> teaching',reason:'Uncertain title',classification:'review',type:null,date:'2026-09-20',url:'https://www.youtube.com/watch?v=AbCdEfGhI_1'}]}));
@@ -278,6 +279,12 @@ test('the production build keeps ten latest talks, three complete archive pages,
     assert.ok(!homepage.includes('data-summary="talk-01"'));
     assert.ok(!homepage.includes('data-summary="talk-14"'));
     assert.match(homepage,/href="\/talks\/"/);
+    assert.match(homepage,/href="\/topics\/">Explore topics/);
+    const topicPage = await built('topics/index.html');
+    assert.match(topicPage,/Discover the Dhamma/);
+    assert.match(topicPage,/https:\/\/bhavana-society\.github\.io\/metta-1\.html/);
+    assert.match(topicPage,/rel="canonical" href="https:\/\/example\.test\/topics\/"/);
+    assert.doesNotMatch(topicPage,/test bench|Private test|No StillWord/);
     const archiveFiles = ['talks/index.html','talks/page/2/index.html','talks/page/3/index.html'];
     const archivePages = await Promise.all(archiveFiles.map(built));
     for (const [index,html] of archivePages.entries()) {
@@ -309,11 +316,11 @@ test('the production build keeps ten latest talks, three complete archive pages,
     const sitemap = await built('sitemap.xml');
     const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match=>match[1]);
     assert.deepEqual(new Set(locations),new Set([
-      'https://example.test/','https://example.test/talks/',
+      'https://example.test/','https://example.test/talks/','https://example.test/topics/',
       'https://example.test/talks/page/2/','https://example.test/talks/page/3/',
       ...published.map(talk=>`https://example.test/talks/${talk.id}/`)
     ]));
-    assert.equal(locations.length,28);
+    assert.equal(locations.length,29);
     const config = JSON.parse(await built('admin/config.yml'));
     assert.equal(config.backend.repo,'test/library');
     assert.equal(config.site_url,'https://example.test');

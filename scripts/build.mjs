@@ -4,6 +4,7 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { readContributionData } from './contribution-data.mjs';
 import { escapeHtml as e, prepareTalks } from './content.mjs';
+import { validateCatalog, renderTopicCards } from '../public/assets/topic-catalog.js';
 import { latestTalks, selectTalks, talkRow, pagination, archiveUrl } from '../public/assets/talks.js';
 
 const root = fileURLToPath(new URL('../',import.meta.url));
@@ -37,6 +38,10 @@ const latest = latestTalks(talks);
 await writeFile(path.join(dist,'index.html'),template.replace('{{COUNT}}',latest.length).replace('{{TALK_ROWS}}',latest.map(talkRow).join('\n')).replace('{{CANONICAL}}',canonical('/')));
 const archiveTemplate = await readFile(path.join(root,'templates/talks.html'),'utf8');
 const footer = template.match(/<footer class="site-footer[\s\S]*?<\/footer>/)[0];
+const topicCatalog = validateCatalog(JSON.parse(await readFile(path.join(root,'public/data/topic-archive.json'),'utf8')));
+const topicsTemplate = await readFile(path.join(root,'templates/topics.html'),'utf8');
+await mkdir(path.join(dist,'topics'),{recursive:true});
+await writeFile(path.join(dist,'topics/index.html'),topicsTemplate.replace('{{TOPIC_CARDS}}',renderTopicCards(topicCatalog,{external:true})).replace('{{FOOTER}}',footer).replace('{{CANONICAL}}',canonical('/topics/')));
 const queueTemplate = await readFile(path.join(root,'templates/contribute-talks.html'),'utf8');
 const queueData = JSON.stringify({repository,library,...contributionData}).replaceAll('<','\u005cu003c');
 await mkdir(path.join(dist,'contribute/talks'),{recursive:true});
@@ -66,6 +71,6 @@ if (repository && origin) {
   JSON.parse(config); await writeFile(path.join(dist,'admin/config.yml'),config);
 }
 await writeFile(path.join(dist,'robots.txt'),`User-agent: *\nDisallow: /admin/\n${origin ? `Sitemap: ${origin}/sitemap.xml\n` : ''}`);
-if (origin) await writeFile(path.join(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/',...archiveUrls,...talks.map(talk=>talk.readingUrl)].map(url=>`<url><loc>${e(origin+url)}</loc></url>`).join('')}</urlset>`);
+if (origin) await writeFile(path.join(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/','/topics/',...archiveUrls,...talks.map(talk=>talk.readingUrl)].map(url=>`<url><loc>${e(origin+url)}</loc></url>`).join('')}</urlset>`);
 await writeFile(path.join(dist,'404.html'),'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found · Dhamma Library</title><link rel="stylesheet" href="/assets/site.css"></head><body><main class="reading-page wrap"><h1>That page is not in the library.</h1><p>Return to the collection to find a talk, the book, or the breathing presentation.</p><a class="button primary" href="/">Open the library</a></main></body></html>');
 console.log(`Built ${talks.length} talks and reading pages in ${dist}\nShared editor: ${repository && origin ? 'repository configured; Netlify OAuth must be connected' : 'setup page (GitHub repository and site URL not yet configured)'}`);
