@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bhante G Dhamma Library</title>
+  <meta name="description" content="Dhamma talks, questions and answers, and mindfulness of breathing with Bhante Gunaratana. Read concise and full summaries, watch the talks, and explore the book.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script defer src="/assets/site.js"></script>
+  {{CANONICAL}}
+</head>
+<body>
+  <a class="skip-link" href="#talks">Skip to talks</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="Dhamma Library home"><img src="/assets/favicon.svg" alt="" width="37" height="37"><span>Dhamma Library<small>THE TEACHINGS OF BHANTE G</small></span></a>
+    <nav aria-label="Main navigation"><a href="#talks">Talks</a><a href="#book">Book & video</a><a href="#contribute">Contribute</a><a href="#about">About</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="site-title">
+      <div class="hero-copy"><p class="eyebrow">BHANTE GUNARATANA</p><h1 id="site-title">A library of<br>Dhamma teachings.</h1><p>Talks, questions, and the practice of mindfulness.</p></div>
+      <img class="monastery" src="/assets/images/monastery.png" width="2172" height="724" alt="Watercolor of the Bhavana Society meditation hall and gardens">
+    </section>
+    <section class="library wrap" id="talks" aria-labelledby="talks-title">
+      <div class="section-heading"><div><p class="eyebrow">LISTEN & REFLECT</p><h2 id="talks-title">Recent teachings</h2></div><p class="collection-count" id="result-count" aria-live="polite">{{COUNT}} talks in the collection</p></div>
+      <div class="library-controls">
+        <div class="filters" role="group" aria-label="Filter by type"><button type="button" data-filter="all" aria-pressed="true">All talks</button><button type="button" data-filter="Dhamma talk" aria-pressed="false">Dhamma talks</button><button type="button" data-filter="Q&A" aria-pressed="false">Q&A</button></div>
+        <div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><label class="sr-only" for="talk-search">Search talks by title, topic, or summary</label><input type="search" id="talk-search" placeholder="Search a topic or teaching…" autocomplete="off"></div>
+      </div>
+      <div class="talk-list" id="talk-list">{{TALK_ROWS}}</div>
+      <p class="empty-state" id="empty-state" hidden>No talks match your search. Try another topic or choose All talks.</p>
+    </section>
+    <section class="book-section" id="book" aria-labelledby="book-title"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">MINDFULNESS OF BREATHING</p><h2 id="book-title">Read. Then return to the breath.</h2></div></div>
+      <div class="book-grid">
+        <article class="book-feature"><a class="cover-link" href="/assets/books/Anapanasati_manuscript.pdf" target="_blank" rel="noopener" aria-label="Read The Ānāpānasati Sutta: A Path to Awakening, PDF"><img src="/assets/books/book-cover.webp" width="1200" height="675" loading="lazy" alt="Cover artwork from The Ānāpānasati Sutta: A Path to Awakening"></a><p class="eyebrow">THE BOOK</p><h3>The Ānāpānasati Sutta:<br>A Path to Awakening</h3><p class="book-author">Bhante Gunaratana</p><p>Developing Calm and Insight through Mindfulness of Breathing Meditation.</p><div class="actions"><a class="button primary" href="/assets/books/Anapanasati_manuscript.pdf" target="_blank" rel="noopener">Read the book</a><a class="text-link" href="/assets/books/Anapanasati_manuscript.pdf" download>Download PDF <span class="muted">· 13.3 MB</span></a></div><p class="small muted">154 pages · Clickable table of contents</p></article>
+        <article class="video-feature"><div class="video-frame"><video controls playsinline preload="none" poster="/assets/video/poster.jpg" width="1600" height="900" aria-label="Anapanasati: the sixteen steps of mindfulness of breathing, narrated presentation"><source src="/assets/video/anapanasati-sixteen-steps.mp4" type="video/mp4">Your browser cannot play this video. <a href="/assets/video/anapanasati-sixteen-steps.mp4">Open the video</a>.</video></div><p class="eyebrow">THE SIXTEEN STEPS · 9:52</p><h3>Ānāpānasati</h3><p>An English narrated presentation of the sixteen steps of mindfulness of breathing.</p><p class="small muted">Play at your own pace. The video does not start automatically.</p></article>
+      </div>
+    </div></section>
+    <section class="contribution wrap" id="contribute" aria-labelledby="contribute-title">
+      <div class="contribution-intro"><div><p class="eyebrow">A SHARED LIBRARY</p><h2 id="contribute-title">Help the collection grow.</h2><p>Contribute a Bhante G Dhamma talk or Q&A, prepare both summaries, or help correct an existing entry. New contributions are reviewed before publication.</p></div><div class="contribution-action"><a class="button primary" href="/admin/">Open the shared editor</a><p class="small">Sign in with GitHub to prepare a draft.<br>Veronique reviews contributions before publication.</p></div></div>
+      <article class="stillword-card" aria-labelledby="stillword-title">
+        <div class="stillword-copy"><p class="eyebrow">A TOOL FOR CONTRIBUTORS</p><div class="stillword-heading"><h3 id="stillword-title">Prepare your summaries with StillWord.</h3><span class="build-badge">Test builds</span></div><p>Extract a YouTube transcript, revisit the recording, and create editable concise and Auto summaries. Review your text, then bring it into the shared editor.</p><p class="small muted">Developed by Veronique at <a href="https://criticalattentionsystems.org" target="_blank" rel="noopener">Critical Attention Systems</a>.</p></div>
+        <div class="stillword-downloads"><p class="small stillword-version">StillWord 1.0.0 · macOS 13 or later</p><div class="download-options"><a class="button" href="https://github.com/CriticalAttentionSystems/StillWord/releases/download/v1.00/StillWord-1.0.0-AppleSilicon-unsigned.dmg"><span>Download for Apple silicon</span><small>M-series Macs · DMG</small></a><a class="button" href="https://github.com/CriticalAttentionSystems/StillWord/releases/download/v1.00/StillWord-1.0.0-Intel--unsigned.dmg"><span>Download for Intel</span><small>Intel Macs · DMG</small></a></div><p class="small muted build-note">Unsigned test builds; not notarized by Apple. Read the installation guide before opening the app. Optional local AI setup requires macOS 14 or later.</p><div class="stillword-links"><a href="https://github.com/CriticalAttentionSystems/StillWord/releases/download/v1.00/READ-ME-FIRST.txt" target="_blank" rel="noopener">Installation guide</a><a href="https://github.com/CriticalAttentionSystems/StillWord/releases/tag/v1.00" target="_blank" rel="noopener">Release notes</a><a href="mailto:criticalattentionsystems@gmail.com?subject=StillWord%20bug%20report">Report a bug</a></div></div>
+      </article>
+    </section>
+    <section class="about wrap" id="about" aria-labelledby="about-title"><div><p class="eyebrow">ABOUT THIS COLLECTION</p><h2 id="about-title">The teaching comes first.</h2></div><div><p>This library brings together Bhante Gunaratana’s Dhamma talks and questions and answers from the <a href="https://www.youtube.com/@BhavanasocietyOrg" target="_blank" rel="noopener">Bhavana Society YouTube channel</a>. Each entry connects a concise overview with a longer summary and the original recording.</p><p>Summaries are prepared with AI assistance and edited against the transcript. They are reading aids; the linked recording remains the source. Pali classes and closing recitations are outside this collection.</p><p>Curated by Veronique. For a correction, include the video link and relevant time in your message to <a href="mailto:criticalattentionsystems@gmail.com">criticalattentionsystems@gmail.com</a>.</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="/">Dhamma Library</a><p>Curated by Veronique · <a href="https://criticalattentionsystems.org" target="_blank" rel="noopener">Critical Attention Systems</a></p><a href="https://bhavanasociety.org/" target="_blank" rel="noopener">Bhavana Society</a></footer>
+  <dialog id="summary-dialog" aria-labelledby="dialog-title"><div class="dialog-shell"><header class="dialog-header"><p class="eyebrow" id="dialog-meta"></p><button class="close-button" id="close-dialog" type="button" aria-label="Close full summary">✕</button></header><div class="dialog-reading"><h2 id="dialog-title"></h2><div class="dialog-actions"><a class="button primary" id="dialog-video" target="_blank" rel="noopener">Watch on YouTube</a><a class="text-link" id="dialog-permalink">Open reading page</a><button class="text-link" id="copy-link" type="button">Copy link</button></div><article id="dialog-content" class="prose"></article><p class="summary-note">Summary prepared with AI assistance and edited against the transcript. Refer to the recording for the original teaching.</p></div></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

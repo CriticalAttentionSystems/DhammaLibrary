@@ -1,0 +1,8 @@
+dist/
+delivery/
+work/
+qa/
+node_modules/
+.env
+.DS_Store
+*.zip

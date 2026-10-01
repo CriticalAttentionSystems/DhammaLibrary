@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Shared editor · Dhamma Library</title>
+  <link rel="stylesheet" href="./editor.css">
+  <script src="./editor.js" defer></script>
+</head>
+<body>
+  <section id="editor-status" class="setup-card" role="status" aria-live="polite">
+    <a class="library-link" href="../">← Dhamma Library</a>
+    <p class="eyebrow">A shared place for careful editing</p>
+    <h1>Contribute to the library</h1>
+    <p id="status-message">Checking the editor configuration…</p>
+    <div id="setup-help" hidden>
+      <p>The public library remains available. Shared editing needs the owner's GitHub repository and Netlify sign-in configuration.</p>
+      <a class="button" href="./setup.html">Read the setup instructions</a>
+    </div>
+    <p id="demo-link" hidden><a href="?demo=1">Try the local editor preview</a> · Changes in this preview disappear when the page reloads.</p>
+    <noscript><p>Enable JavaScript to open the editor. You can still read the public library.</p></noscript>
+  </section>
+  <div id="preview-notice" hidden>Local editor preview — drafts exist only in this tab. Nothing is saved to GitHub or published.</div>
+</body>
+</html>

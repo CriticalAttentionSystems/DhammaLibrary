@@ -1,0 +1,142 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "__GITHUB_REPOSITORY__",
+    "branch": "main",
+    "open_authoring": true,
+    "auth_scope": "public_repo"
+  },
+  "publish_mode": "editorial_workflow",
+  "site_url": "__SITE_URL__",
+  "display_url": "__SITE_URL__",
+  "media_folder": "public/uploads",
+  "public_folder": "/uploads",
+  "collections": [
+    {
+      "name": "talks",
+      "label": "Talks",
+      "label_singular": "Talk",
+      "folder": "content/talks",
+      "create": true,
+      "delete": false,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": "{{fields.id}}",
+      "summary": "{{title}} · {{type}} · {{date}}",
+      "sortable_fields": [
+        "title",
+        "date"
+      ],
+      "fields": [
+        {
+          "label": "Entry ID",
+          "name": "id",
+          "widget": "string",
+          "hint": "A stable lowercase ID, such as mindful-breathing-01. Keep it unchanged when editing.",
+          "pattern": [
+            "^[a-z0-9][a-z0-9-]*$",
+            "Use lowercase letters, numbers, and hyphens."
+          ]
+        },
+        {
+          "label": "YouTube video ID",
+          "name": "youtubeId",
+          "widget": "string",
+          "pattern": [
+            "^[A-Za-z0-9_-]{11}$",
+            "Enter the 11-character video ID."
+          ]
+        },
+        {
+          "label": "YouTube link",
+          "name": "url",
+          "widget": "string",
+          "pattern": [
+            "^https://(www\\.)?youtube\\.com/watch\\?v=[A-Za-z0-9_-]{11}(&.*)?$",
+            "Use the full https://www.youtube.com/watch?v=… link."
+          ]
+        },
+        {
+          "label": "Thumbnail image URL",
+          "name": "thumbnailUrl",
+          "widget": "string",
+          "required": false,
+          "default": "",
+          "hint": "Use an observed HTTPS i.ytimg.com thumbnail, or an existing local frame at /assets/images/talks/VIDEO_ID.jpg. The video ID must match. Leave blank to omit.",
+          "pattern": [
+            "^$|^https://i\\.ytimg\\.com/vi/[A-Za-z0-9_-]{11}/[^\\s?#]+(?:\\?[^\\s#]*)?$|^/assets/images/talks/[A-Za-z0-9_-]{11}\\.jpg$",
+            "Leave blank or enter an HTTPS i.ytimg.com/vi/ thumbnail URL for this video."
+          ]
+        },
+        {
+          "label": "Library title",
+          "name": "title",
+          "widget": "string"
+        },
+        {
+          "label": "Original video title",
+          "name": "originalTitle",
+          "widget": "string"
+        },
+        {
+          "label": "Talk date",
+          "name": "date",
+          "widget": "datetime",
+          "format": "YYYY-MM-DD",
+          "date_format": "YYYY-MM-DD",
+          "time_format": false
+        },
+        {
+          "label": "Talk type",
+          "name": "type",
+          "widget": "select",
+          "options": [
+            "Dhamma talk",
+            "Q&A"
+          ],
+          "default": "Dhamma talk"
+        },
+        {
+          "label": "Duration in seconds",
+          "name": "durationSeconds",
+          "widget": "number",
+          "value_type": "int",
+          "min": 1
+        },
+        {
+          "label": "Topics",
+          "name": "topics",
+          "widget": "list",
+          "min": 1,
+          "field": {
+            "label": "Topic",
+            "name": "topic",
+            "widget": "string"
+          },
+          "hint": "Add focused subjects that help readers find the talk."
+        },
+        {
+          "label": "Brief introduction",
+          "name": "brief",
+          "widget": "text",
+          "hint": "A short, clear introduction for the library card."
+        },
+        {
+          "label": "Summary",
+          "name": "summaryMarkdown",
+          "widget": "markdown",
+          "hint": "An accurate, readable summary in American English. Check unfamiliar Pali words against the recording."
+        },
+        {
+          "label": "Approved for public listing",
+          "name": "published",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Leave off when proposing a new talk. The owner reviews the content and approves publication."
+        }
+      ]
+    }
+  ]
+}
