@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Talks to add · Dhamma Library</title>
+  <meta name="description" content="Help bring more of Bhante Gunaratana’s teachings to the Dhamma Library. Find a missing talk, check reservations, and prepare a summary.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/contribution-queue.css">
+  <script type="module" src="/assets/contribution-queue.js"></script>
+  {{CANONICAL}}
+</head>
+<body>
+  <a class="skip-link" href="#queue">Skip to talks to add</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="Dhamma Library home"><img src="/assets/favicon.svg" alt="" width="37" height="37"><span>Dhamma Library<small>THE TEACHINGS OF BHANTE G</small></span></a>
+    <nav aria-label="Main navigation"><a href="/#talks">Latest talks</a><a href="/talks/">All talks</a><a href="/#book">Book &amp; video</a><a href="/#contribute" aria-current="page">Contribute</a><a href="/#about">About</a></nav>
+  </header>
+  <main class="queue-page wrap" id="queue" aria-labelledby="queue-title">
+    <a class="back-link" href="/#contribute">← Contribute to the library</a>
+    <div class="queue-heading">
+      <div><p class="eyebrow">HELP THE LIBRARY GROW</p><h1 id="queue-title">Talks to add</h1><p class="section-description">A place to find teachings that still need a summary—and see what others are working on.</p></div>
+      <a class="button" href="/admin/">Open shared editor ↗</a>
+    </div>
+    <ol class="queue-steps" aria-label="How to contribute">
+      <li><span class="queue-step-number" aria-hidden="true">1</span><div><h2>Choose a talk</h2><p>Find a Dhamma talk or Q&amp;A session you would like to share.</p></div></li>
+      <li><span class="queue-step-number" aria-hidden="true">2</span><div><h2>Reserve with GitHub</h2><p>Request a reservation, then return here and check for your name before starting.</p></div></li>
+      <li><span class="queue-step-number" aria-hidden="true">3</span><div><h2>Prepare your summary</h2><p>Use the shared editor to add the talk and submit your summary for review.</p></div></li>
+    </ol>
+    <div class="queue-scope">
+      <p>Bhavana Society · Bhante G · Past six months</p>
+      <div><span id="queue-range">Loading date range…</span><span id="queue-scan">Loading channel scan…</span></div>
+    </div>
+    <div class="queue-filters" role="search">
+      <label for="queue-search">Search talks<input id="queue-search" type="search" placeholder="Search a title or topic" autocomplete="off"></label>
+      <label for="queue-status">Status<select id="queue-status"><option value="available" selected>Available</option><option value="all">All statuses</option><option value="claimed">Claimed</option><option value="in-review">In review</option><option value="published">Published</option><option value="needs-review">Needs review</option><option value="excluded">Excluded</option><option value="draft">Draft</option></select></label>
+      <label for="queue-type">Type of talk<select id="queue-type"><option value="all">All types</option><option value="Dhamma talk">Dhamma talk</option><option value="Q&amp;A">Q&amp;A</option></select></label>
+    </div>
+    <div class="queue-check">
+      <div><p class="queue-live-status" id="queue-live-status" role="status">Checking current reservations…</p><p class="queue-reservation-note">The earliest open reservation holds the talk. Check that it is yours before you begin.</p></div>
+      <button class="button" type="button" id="queue-refresh">Check contributions</button>
+    </div>
+    <noscript><div class="queue-offline"><h2>Check reservations on GitHub</h2><p>Enable JavaScript to see this list and check which talks have already been reserved. You can also <a href="https://github.com/CriticalAttentionSystems/DhammaLibrary/issues">review the open reservations on GitHub</a>. Confirm that no earlier reservation or summary already covers the video before starting work.</p></div></noscript>
+    <p class="queue-summary" id="queue-summary" aria-live="polite">Loading talks…</p>
+    <div class="queue-results" id="queue-results"></div>
+    <div class="empty-state queue-empty" id="queue-empty" hidden><h2>No talks match this view.</h2><p>Try a different status, type, or search term.</p></div>
+    <nav class="queue-pagination" aria-label="Talks to add pages"><button class="button" type="button" id="queue-previous">← Previous</button><p id="queue-page" aria-live="polite"></p><button class="button" type="button" id="queue-next">Next →</button></nav>
+    <p class="queue-help">Not sure whether a talk belongs here? Open the video and check the speaker and subject first. Pali classes are not included.</p>
+  </main>
+  {{FOOTER}}
+  <script type="application/json" id="contribution-data">{{QUEUE_DATA}}</script>
+</body>
+</html>

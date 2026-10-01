@@ -251,10 +251,11 @@ test('the production build keeps ten latest talks, three complete archive pages,
   try {
     await Promise.all(['scripts','templates','public/assets','public/admin','content/talks'].map(directory=>mkdir(path.join(temporaryRoot,directory),{recursive:true})));
     await Promise.all([
-      'scripts/build.mjs','scripts/content.mjs','public/assets/talks.js',
+      'scripts/build.mjs','scripts/content.mjs','scripts/contribution-data.mjs','public/assets/talks.js','templates/contribute-talks.html',
       'templates/index.html','templates/talks.html','templates/admin-config.yml'
     ].map(file=>copyFile(new URL(`../${file}`,import.meta.url),path.join(temporaryRoot,file))));
     await writeFile(path.join(temporaryRoot,'package.json'),JSON.stringify({type:'module'}));
+    await writeFile(path.join(temporaryRoot,'content/discovery.json'),JSON.stringify({version:1,complete:true,warnings:[],checkedAt:'2026-10-01T12:00:00Z',scope:{months:6,since:'2026-04-01',until:'2026-10-01'},videos:[{youtubeId:'AbCdEfGhI_1',title:'A </script><script>alert(1)</script> teaching',reason:'Uncertain title',classification:'review',type:null,date:'2026-09-20',url:'https://www.youtube.com/watch?v=AbCdEfGhI_1'}]}));
     const fixtures = records.map((talk,index)=>{
       const youtubeId = String(index+1).padStart(11,'0');
       return {...talk,youtubeId,url:`https://www.youtube.com/watch?v=${youtubeId}`,thumbnailUrl:'',
@@ -289,6 +290,12 @@ test('the production build keeps ten latest talks, three complete archive pages,
       assert.ok(html.includes(`<link rel="canonical" href="https://example.test${archivePath}">`));
     }
     assert.deepEqual(archivePages.flatMap(rowIds),ids(published));
+    const queueHtml = await built('contribute/talks/index.html');
+    assert.ok(!queueHtml.includes('</script><script>alert(1)</script>'));
+    const queueData = JSON.parse(queueHtml.match(/id="contribution-data">([\s\S]*?)<\/script>/)[1]);
+    assert.equal(queueData.library.length,25,'draft IDs are included to prevent duplicate work');
+    assert.equal(queueData.library.find(record=>!record.published).title,undefined);
+    assert.equal(queueData.catalog.videos[0].title,'A </script><script>alert(1)</script> teaching');
     const data = JSON.parse(await built('data/talks.json'));
     assert.deepEqual(ids(data),ids(published));
     assert.equal(data.length,24);
@@ -314,7 +321,7 @@ test('the production build keeps ten latest talks, three complete archive pages,
     for (const file of generatedFiles) {
       const contents = await built(file);
       assert.ok(!contents.includes('Unpublished integration fixture'),file);
-      assert.ok(!contents.includes('talk-30'),file);
+      if (file !== 'contribute/talks/index.html') assert.ok(!contents.includes('talk-30'),file); // Inventory paths include drafts; their content stays hidden.
       // Lowercase CMS expressions in admin/config.yml are intentional, not build placeholders.
       assert.doesNotMatch(contents,/\{\{[A-Z_]+\}\}|__(?:GITHUB_REPOSITORY|SITE_URL)__/,file);
     }

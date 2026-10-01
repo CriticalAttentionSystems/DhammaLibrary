@@ -14,6 +14,12 @@ Static numbered pages keep the entire collection browsable without JavaScript. S
 
 For the connected GitHub/Netlify site, review changes in GitHub Desktop, commit them, and push to `main` to trigger the deployment. There is no separate content migration.
 
+## Find missing talks and avoid duplicate work
+
+Open **Contribute → Find a talk to contribute**. The six-month channel inventory separates available candidates, uncertain videos, exclusions, published talks, reservations, and submissions awaiting review. Contributors reserve a video with GitHub before preparing a summary. The page checks live contributions by the exact YouTube video ID, including unpublished main-branch entries and open pull requests.
+
+See [the contribution guide](docs/CONTRIBUTIONS.md) for the reservation workflow, review decisions, refreshing the scan, and enabling the required duplicate-submission check. Run `npm run scan:talks -- --months 6` to refresh locally, then review, commit, and push the catalog. No scheduled runs or automatic commits are enabled.
+
 ## Preview locally
 
 Install Node.js 22 or later, open a terminal in this project directory, then run:

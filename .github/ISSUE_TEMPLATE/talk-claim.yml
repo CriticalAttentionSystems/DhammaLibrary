@@ -1,0 +1,36 @@
+name: Reserve a talk
+description: Let other contributors know which talk you are preparing.
+title: '[Talk claim] VIDEO_ID'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the Talks to add page before requesting a talk. After submitting this request, refresh that page and wait until your GitHub name appears as the claimant. The earliest open request for a video has priority. Closing your issue releases the request.
+  - type: input
+    id: youtube-id
+    attributes:
+      label: YouTube video ID
+      description: The exact 11-character ID. Capitalization matters.
+      placeholder: taRyL5LYM3Y
+    validations:
+      required: true
+  - type: input
+    id: video-link
+    attributes:
+      label: Video link
+      placeholder: https://www.youtube.com/watch?v=taRyL5LYM3Y
+    validations:
+      required: true
+  - type: input
+    id: video-title
+    attributes:
+      label: Video title
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Before starting
+      options:
+        - label: I will check the Talks to add list and start only if my GitHub name appears as the claimant. I will close this request if I stop working on it.
+          required: true

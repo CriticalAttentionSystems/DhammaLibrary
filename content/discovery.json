@@ -1,0 +1,2451 @@
+{
+  "version": 1,
+  "channel": {
+    "id": "UCjUZp1wSbSNkxP7SspfCf5w",
+    "url": "https://www.youtube.com/@BhavanasocietyOrg",
+    "name": "The Bhavana Society of West Virginia"
+  },
+  "scope": {
+    "months": 6,
+    "since": "2026-04-01",
+    "until": "2026-10-01"
+  },
+  "checkedAt": "2026-10-01T12:56:50.581Z",
+  "complete": true,
+  "warnings": [
+    "Discovery covers publicly listed Videos and Live tabs only. Private, unlisted, deleted, and members-only recordings cannot be guaranteed. Titles determine eligibility; ambiguous speakers or subjects need human review.",
+    "Exact dates are YouTube broadcast dates when available, otherwise upload dates, in UTC. Approximate channel-list dates are used only to find candidates, with a 62-day buffer."
+  ],
+  "scan": {
+    "maxItemsPerTab": 400,
+    "candidateCount": 128,
+    "verifiedCount": 128,
+    "tabs": [
+      {
+        "tab": "videos",
+        "listed": 400,
+        "boundaryReached": true
+      },
+      {
+        "tab": "streams",
+        "listed": 400,
+        "boundaryReached": true
+      }
+    ]
+  },
+  "videos": [
+    {
+      "youtubeId": "taRyL5LYM3Y",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=taRyL5LYM3Y",
+      "date": "2026-09-27",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-29",
+      "durationSeconds": 3985,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/taRyL5LYM3Y/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "WPm4c0VDmW4",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=WPm4c0VDmW4",
+      "date": "2026-09-27",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-29",
+      "durationSeconds": 3665,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/WPm4c0VDmW4/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "yakJve5nORc",
+      "title": "Q&A with Bhante G | 9-27-26",
+      "url": "https://www.youtube.com/watch?v=yakJve5nORc",
+      "date": "2026-09-27",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-29",
+      "durationSeconds": 16,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/yakJve5nORc/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Short or aborted recording (under one minute)."
+    },
+    {
+      "youtubeId": "y7LBj5sIy9o",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=y7LBj5sIy9o",
+      "date": "2026-09-26",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-28",
+      "durationSeconds": 3891,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/y7LBj5sIy9o/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "_6wfrum1ZcQ",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=_6wfrum1ZcQ",
+      "date": "2026-09-20",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-22",
+      "durationSeconds": 3844,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6wfrum1ZcQ/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "p9FLPvtQPUc",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=p9FLPvtQPUc",
+      "date": "2026-09-19",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-21",
+      "durationSeconds": 3881,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/p9FLPvtQPUc/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "CF2UniVfk5c",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=CF2UniVfk5c",
+      "date": "2026-09-12",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-18",
+      "durationSeconds": 4210,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/CF2UniVfk5c/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "AaTLkgW9wDM",
+      "title": "Closing Talk",
+      "url": "https://www.youtube.com/watch?v=AaTLkgW9wDM",
+      "date": "2026-09-08",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 2027,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/AaTLkgW9wDM/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "RneEUHn8E9c",
+      "title": "Bhante S - guide meditation",
+      "url": "https://www.youtube.com/watch?v=RneEUHn8E9c",
+      "date": "2026-09-08",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 2985,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/RneEUHn8E9c/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "5ZiStCoxFUI",
+      "title": "Meditation with Bhante G",
+      "url": "https://www.youtube.com/watch?v=5ZiStCoxFUI",
+      "date": "2026-09-07",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 1138,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/5ZiStCoxFUI/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Standalone guided meditation rather than a Dhamma or Q&A talk."
+    },
+    {
+      "youtubeId": "iwEMYnwoDtU",
+      "title": "Samma Samadhi - Right Concentration - Bhante G",
+      "url": "https://www.youtube.com/watch?v=iwEMYnwoDtU",
+      "date": "2026-09-07",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 2893,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwEMYnwoDtU/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "KRjGSrAbDJo",
+      "title": "Samma - Sati - Bhante S",
+      "url": "https://www.youtube.com/watch?v=KRjGSrAbDJo",
+      "date": "2026-09-07",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 3364,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/KRjGSrAbDJo/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "nluIMx_PZJY",
+      "title": "Q & A - Noble 8foldPath retreat 2026",
+      "url": "https://www.youtube.com/watch?v=nluIMx_PZJY",
+      "date": "2026-09-07",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 3013,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/nluIMx_PZJY/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "CundoNSC-SM",
+      "title": "Q&A Noble 8 fold Path 2026 Retreat",
+      "url": "https://www.youtube.com/watch?v=CundoNSC-SM",
+      "date": "2026-09-06",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 4738,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/CundoNSC-SM/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "F8VivsEv3bo",
+      "title": "Bhante G - Right Action & Right Livelihood",
+      "url": "https://www.youtube.com/watch?v=F8VivsEv3bo",
+      "date": "2026-09-06",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 2696,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/F8VivsEv3bo/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "FAajKMAMnss",
+      "title": "Bhante G - Meditation how to Remove hindrances",
+      "url": "https://www.youtube.com/watch?v=FAajKMAMnss",
+      "date": "2026-09-06",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 1572,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/FAajKMAMnss/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "g3y9Ltf3GmY",
+      "title": "Right Effort - Bhante S",
+      "url": "https://www.youtube.com/watch?v=g3y9Ltf3GmY",
+      "date": "2026-09-06",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 3563,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/g3y9Ltf3GmY/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "4tVqFr9kTcU",
+      "title": "Right Speech - Bhante S",
+      "url": "https://www.youtube.com/watch?v=4tVqFr9kTcU",
+      "date": "2026-09-05",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 3323,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/4tVqFr9kTcU/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "dl6TDj1qCmM",
+      "title": "Bhante G - Anapanasati",
+      "url": "https://www.youtube.com/watch?v=dl6TDj1qCmM",
+      "date": "2026-09-05",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 1267,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/dl6TDj1qCmM/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "Bhante G is named; confirm this is a Dhamma or Q&A talk rather than meditation or a ceremony."
+    },
+    {
+      "youtubeId": "fTU3izLVc7o",
+      "title": "Right Intention - Bhante S",
+      "url": "https://www.youtube.com/watch?v=fTU3izLVc7o",
+      "date": "2026-09-05",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 3725,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/fTU3izLVc7o/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "PBe7QlKKIlM",
+      "title": "Bhante G - Right View",
+      "url": "https://www.youtube.com/watch?v=PBe7QlKKIlM",
+      "date": "2026-09-05",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 2671,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/PBe7QlKKIlM/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "sfbZg6L0zxc",
+      "title": "Open Speech of Retreat Noble Eight fold Path",
+      "url": "https://www.youtube.com/watch?v=sfbZg6L0zxc",
+      "date": "2026-09-04",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-11",
+      "durationSeconds": 3642,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/sfbZg6L0zxc/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "0tYaun_5tdU",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=0tYaun_5tdU",
+      "date": "2026-08-30",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 3967,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/0tYaun_5tdU/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "MK4-fCkJqS8",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=MK4-fCkJqS8",
+      "date": "2026-08-30",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4022,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/MK4-fCkJqS8/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "xrUXWEw-rnY",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=xrUXWEw-rnY",
+      "date": "2026-08-29",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4180,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/xrUXWEw-rnY/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "5zxE31uLc3g",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=5zxE31uLc3g",
+      "date": "2026-08-23",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4101,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/5zxE31uLc3g/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "iwb6r97RzsA",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=iwb6r97RzsA",
+      "date": "2026-08-23",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 3774,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwb6r97RzsA/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "NOimWbA98qo",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=NOimWbA98qo",
+      "date": "2026-08-22",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 3822,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/NOimWbA98qo/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "40VZkk0mQfU",
+      "title": "August 16, 2026",
+      "url": "https://www.youtube.com/watch?v=40VZkk0mQfU",
+      "date": "2026-08-17",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 3389,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/40VZkk0mQfU/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "EsrLXFIbnNA",
+      "title": "Meditation - Bhante S",
+      "url": "https://www.youtube.com/watch?v=EsrLXFIbnNA",
+      "date": "2026-08-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 3077,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/EsrLXFIbnNA/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "Ml0a30e6xcI",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=Ml0a30e6xcI",
+      "date": "2026-08-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 2231,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ml0a30e6xcI/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "1b1dDOQaoJs",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=1b1dDOQaoJs",
+      "date": "2026-08-16",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4193,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/1b1dDOQaoJs/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "abhibPuHKxE",
+      "title": "Talk about Tanha - Craving",
+      "url": "https://www.youtube.com/watch?v=abhibPuHKxE",
+      "date": "2026-08-16",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 2498,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/abhibPuHKxE/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "GSFB_0CANHM",
+      "title": "Addiction Recovery Q & A 2",
+      "url": "https://www.youtube.com/watch?v=GSFB_0CANHM",
+      "date": "2026-08-16",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4440,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/GSFB_0CANHM/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "jsQsnR_dA50",
+      "title": "Guiding Meditation by Bhante G",
+      "url": "https://www.youtube.com/watch?v=jsQsnR_dA50",
+      "date": "2026-08-16",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 1653,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/jsQsnR_dA50/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Standalone guided meditation rather than a Dhamma or Q&A talk."
+    },
+    {
+      "youtubeId": "06Dgkwo4xYQ",
+      "title": "Addiction Recovery - Talk 1",
+      "url": "https://www.youtube.com/watch?v=06Dgkwo4xYQ",
+      "date": "2026-08-15",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 3569,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/06Dgkwo4xYQ/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "7pQ2xTqpFiQ",
+      "title": "Addiction Recovery - Ignorance talk by Bhante G",
+      "url": "https://www.youtube.com/watch?v=7pQ2xTqpFiQ",
+      "date": "2026-08-15",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 2855,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/7pQ2xTqpFiQ/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "HfuuM2hBfNw",
+      "title": "Bhante G - Meditation Instruction",
+      "url": "https://www.youtube.com/watch?v=HfuuM2hBfNw",
+      "date": "2026-08-15",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 2203,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/HfuuM2hBfNw/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "Bhante G is named; confirm this is a Dhamma or Q&A talk rather than meditation or a ceremony."
+    },
+    {
+      "youtubeId": "pgOZEVuKgbc",
+      "title": "Addiction Recovery Q & A",
+      "url": "https://www.youtube.com/watch?v=pgOZEVuKgbc",
+      "date": "2026-08-15",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 1904,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/pgOZEVuKgbc/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "9xXf9O08oBk",
+      "title": "Opening talk of Addiction Recovery",
+      "url": "https://www.youtube.com/watch?v=9xXf9O08oBk",
+      "date": "2026-08-14",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 3018,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/9xXf9O08oBk/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "kVUOugEiwhM",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=kVUOugEiwhM",
+      "date": "2026-08-09",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4022,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/kVUOugEiwhM/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "X93f_3FhdVY",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=X93f_3FhdVY",
+      "date": "2026-08-09",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4055,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/X93f_3FhdVY/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "YZ2pThyAEg8",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=YZ2pThyAEg8",
+      "date": "2026-08-08",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4016,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/YZ2pThyAEg8/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "oCspLO-D6vg",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=oCspLO-D6vg",
+      "date": "2026-08-02",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 5222,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/oCspLO-D6vg/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "Yy5qgeNpi5s",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=Yy5qgeNpi5s",
+      "date": "2026-08-01",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-09-02",
+      "durationSeconds": 4196,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yy5qgeNpi5s/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "-WZU0bFzDIs",
+      "title": "July 26, 2026",
+      "url": "https://www.youtube.com/watch?v=-WZU0bFzDIs",
+      "date": "2026-07-29",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3168,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/-WZU0bFzDIs/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "Fk_fiyH0BCw",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=Fk_fiyH0BCw",
+      "date": "2026-07-27",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3063,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fk_fiyH0BCw/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "yR0ur-J502M",
+      "title": "Emotion Management Q&A2",
+      "url": "https://www.youtube.com/watch?v=yR0ur-J502M",
+      "date": "2026-07-26",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 2813,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/yR0ur-J502M/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "10AKJ23Qlxc",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=10AKJ23Qlxc",
+      "date": "2026-07-25",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3558,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/10AKJ23Qlxc/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "lC8BiRboWmw",
+      "title": "Emotion Management - 2026 - Q&A section",
+      "url": "https://www.youtube.com/watch?v=lC8BiRboWmw",
+      "date": "2026-07-25",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 4039,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/lC8BiRboWmw/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "rgACIvaCEtU",
+      "title": "Emotion Management July 2026",
+      "url": "https://www.youtube.com/watch?v=rgACIvaCEtU",
+      "date": "2026-07-25",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 2158,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/rgACIvaCEtU/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "rJYPK5p9t48",
+      "title": "Bhante G - Meditation - Retreat July 2026",
+      "url": "https://www.youtube.com/watch?v=rJYPK5p9t48",
+      "date": "2026-07-25",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 1449,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/rJYPK5p9t48/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Standalone guided meditation rather than a Dhamma or Q&A talk."
+    },
+    {
+      "youtubeId": "ZBSt7ysOSJk",
+      "title": "Bhante G - Dhamma talks about Feeling Contemplation - Jul 2026",
+      "url": "https://www.youtube.com/watch?v=ZBSt7ysOSJk",
+      "date": "2026-07-25",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 2714,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZBSt7ysOSJk/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "3bW7Bo7lcNE",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=3bW7Bo7lcNE",
+      "date": "2026-07-19",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3984,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/3bW7Bo7lcNE/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "M6hdoGT8hbU",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=M6hdoGT8hbU",
+      "date": "2026-07-19",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 4091,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/M6hdoGT8hbU/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "UprqsJQbOZk",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=UprqsJQbOZk",
+      "date": "2026-07-18",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3991,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/UprqsJQbOZk/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "e4Y-7Mwr3Sc",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=e4Y-7Mwr3Sc",
+      "date": "2026-07-12",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 4027,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/e4Y-7Mwr3Sc/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "n5wx1kBChy4",
+      "title": "12 Jul 2026 Bhante G - Q and A",
+      "url": "https://www.youtube.com/watch?v=n5wx1kBChy4",
+      "date": "2026-07-12",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3991,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/n5wx1kBChy4/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "ElSr9lc16Wo",
+      "title": "July 7, 2026",
+      "url": "https://www.youtube.com/watch?v=ElSr9lc16Wo",
+      "date": "2026-07-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3508,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/ElSr9lc16Wo/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "Xx8nP2-rWIk",
+      "title": "July 4, 2026",
+      "url": "https://www.youtube.com/watch?v=Xx8nP2-rWIk",
+      "date": "2026-07-07",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3319,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xx8nP2-rWIk/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "osqNfCAOkUE",
+      "title": "5 Jul 2026 Bhante - Q and A",
+      "url": "https://www.youtube.com/watch?v=osqNfCAOkUE",
+      "date": "2026-07-05",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-08-02",
+      "durationSeconds": 3846,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/osqNfCAOkUE/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "_juR4lIjRyM",
+      "title": "28 Jun 2026 Bhante G  - Dhamma Talk",
+      "url": "https://www.youtube.com/watch?v=_juR4lIjRyM",
+      "date": "2026-06-28",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4021,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/_juR4lIjRyM/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "GsyNo2QNd4A",
+      "title": "28 Jun 2026 Bhante G  - Pali class",
+      "url": "https://www.youtube.com/watch?v=GsyNo2QNd4A",
+      "date": "2026-06-28",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4050,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/GsyNo2QNd4A/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "GVKJZvj_Brs",
+      "title": "27 Jun 2026 Bhante G  - Dhamma Talk",
+      "url": "https://www.youtube.com/watch?v=GVKJZvj_Brs",
+      "date": "2026-06-27",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4195,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/GVKJZvj_Brs/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "f5wUnQ9dBdU",
+      "title": "Bhante G - Qualities of the Buddha",
+      "url": "https://www.youtube.com/watch?v=f5wUnQ9dBdU",
+      "date": "2026-06-24",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 1800,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/f5wUnQ9dBdU/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "Bhante G is named; confirm this is a Dhamma or Q&A talk rather than meditation or a ceremony."
+    },
+    {
+      "youtubeId": "hj5MtNCXgPs",
+      "title": "2020 Dhamma Talk, QnA & Metta Instructions By Bhavana Monastics",
+      "url": "https://www.youtube.com/watch?v=hj5MtNCXgPs",
+      "date": "2026-06-23",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 2676,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/hj5MtNCXgPs/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "yIcP2zIRQyc",
+      "title": "Bhante G - Arising of Materiality",
+      "url": "https://www.youtube.com/watch?v=yIcP2zIRQyc",
+      "date": "2026-06-23",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4118,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/yIcP2zIRQyc/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "Bhante G is named; confirm this is a Dhamma or Q&A talk rather than meditation or a ceremony."
+    },
+    {
+      "youtubeId": "hnbU1SqPRcM",
+      "title": "Bhante G's Five Hindrances part 2 || 2026-06-21",
+      "url": "https://www.youtube.com/watch?v=hnbU1SqPRcM",
+      "date": "2026-06-21",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3178,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/hnbU1SqPRcM/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "N9jZiSJ-rNY",
+      "title": "Bhante G - talks  Dhammanupassana",
+      "url": "https://www.youtube.com/watch?v=N9jZiSJ-rNY",
+      "date": "2026-06-20",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 2560,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9jZiSJ-rNY/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "o-uCAn59J04",
+      "title": "Bhante Saddhajeewa - guided meditation",
+      "url": "https://www.youtube.com/watch?v=o-uCAn59J04",
+      "date": "2026-06-20",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 1624,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/o-uCAn59J04/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "sjInG-5AS8Q",
+      "title": "Bhante S - The Bhikkhu",
+      "url": "https://www.youtube.com/watch?v=sjInG-5AS8Q",
+      "date": "2026-06-20",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 5662,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/sjInG-5AS8Q/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "cR2fbCmstO0",
+      "title": "Bhaten G talks about Cittanupassi",
+      "url": "https://www.youtube.com/watch?v=cR2fbCmstO0",
+      "date": "2026-06-19",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3946,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/cR2fbCmstO0/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "QdNrVxfPceg",
+      "title": "Feeling and Perception - from a scientific perspective - Prof. Chinthaka",
+      "url": "https://www.youtube.com/watch?v=QdNrVxfPceg",
+      "date": "2026-06-19",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 7139,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/QdNrVxfPceg/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "IEQhCqJa7jo",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=IEQhCqJa7jo",
+      "date": "2026-06-18",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3408,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/IEQhCqJa7jo/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "KkHDPZSX3Gc",
+      "title": "Bhante G talk about Feeling Meditation",
+      "url": "https://www.youtube.com/watch?v=KkHDPZSX3Gc",
+      "date": "2026-06-18",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3594,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/KkHDPZSX3Gc/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "6sJ2HNMs9Nk",
+      "title": "Technology as a Tool, not as a Master - Mr. Don Gunasekara",
+      "url": "https://www.youtube.com/watch?v=6sJ2HNMs9Nk",
+      "date": "2026-06-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4425,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/6sJ2HNMs9Nk/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "9F5vJFR8gPI",
+      "title": "Technology as a Tool, not as a Master - Mr. Don Gunasekara part 2",
+      "url": "https://www.youtube.com/watch?v=9F5vJFR8gPI",
+      "date": "2026-06-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 5122,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/9F5vJFR8gPI/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "bUT2S19Kaxc",
+      "title": "How does self view arise and vanish? by Bhante Jinananda",
+      "url": "https://www.youtube.com/watch?v=bUT2S19Kaxc",
+      "date": "2026-06-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3250,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/bUT2S19Kaxc/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "A different teacher is named in the title."
+    },
+    {
+      "youtubeId": "ih2xmunNqac",
+      "title": "Bhante G talk on Monastic Retreat - 2026",
+      "url": "https://www.youtube.com/watch?v=ih2xmunNqac",
+      "date": "2026-06-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3282,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/ih2xmunNqac/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "xG_VsO0Av80",
+      "title": "Bhante G - Mindfulness of the Body",
+      "url": "https://www.youtube.com/watch?v=xG_VsO0Av80",
+      "date": "2026-06-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 2351,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/xG_VsO0Av80/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "Bhante G is named; confirm this is a Dhamma or Q&A talk rather than meditation or a ceremony."
+    },
+    {
+      "youtubeId": "rrgH9mP9CM0",
+      "title": "Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=rrgH9mP9CM0",
+      "date": "2026-06-14",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3929,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/rrgH9mP9CM0/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "xNjuZzw9gZU",
+      "title": "Bhante G - Pali Class - 2026-06-14",
+      "url": "https://www.youtube.com/watch?v=xNjuZzw9gZU",
+      "date": "2026-06-14",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4149,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/xNjuZzw9gZU/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "0vMjUPhkAP0",
+      "title": "17 May 2026 Q-A with Bhante G",
+      "url": "https://www.youtube.com/watch?v=0vMjUPhkAP0",
+      "date": "2026-06-13",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4221,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/0vMjUPhkAP0/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "7vq0xO6QMjU",
+      "title": "24 May 2026 Pali Class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=7vq0xO6QMjU",
+      "date": "2026-06-13",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4162,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/7vq0xO6QMjU/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "bu8VtIbeSps",
+      "title": "31 May 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=bu8VtIbeSps",
+      "date": "2026-06-13",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3738,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/bu8VtIbeSps/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "mE8AxDvCcwI",
+      "title": "Bhante G - Contemplation of Dhamma 13 Jun 2026",
+      "url": "https://www.youtube.com/watch?v=mE8AxDvCcwI",
+      "date": "2026-06-13",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4110,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/mE8AxDvCcwI/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "Ws__l0CRy5k",
+      "title": "17 May 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=Ws__l0CRy5k",
+      "date": "2026-06-13",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3994,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ws__l0CRy5k/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "k0WWnl7iHz0",
+      "title": "7 Jun 2026 Q-A with Bhante G",
+      "url": "https://www.youtube.com/watch?v=k0WWnl7iHz0",
+      "date": "2026-06-07",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4118,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/k0WWnl7iHz0/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "pZaShxQKlUg",
+      "title": "7 Jun 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=pZaShxQKlUg",
+      "date": "2026-06-07",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 3973,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/pZaShxQKlUg/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "1-Tw1QFpsqY",
+      "title": "6 Jun 2026 Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=1-Tw1QFpsqY",
+      "date": "2026-06-06",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-07-02",
+      "durationSeconds": 4015,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/1-Tw1QFpsqY/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "N5X4hku7tp4",
+      "title": "31 May 2026 Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=N5X4hku7tp4",
+      "date": "2026-05-31",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4067,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/N5X4hku7tp4/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "kxOBb3rElE8",
+      "title": "30 May 2026 Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=kxOBb3rElE8",
+      "date": "2026-05-30",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3987,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/kxOBb3rElE8/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "3HIB8ZndKWk",
+      "title": "Q&A with Bhante G 5-24-26",
+      "url": "https://www.youtube.com/watch?v=3HIB8ZndKWk",
+      "date": "2026-05-24",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4026,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/3HIB8ZndKWk/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "wnsKUr1mi90",
+      "title": "23 May 2026 Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=wnsKUr1mi90",
+      "date": "2026-05-23",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4171,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/wnsKUr1mi90/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "rMBiTbnz178",
+      "title": "Seven Factors of Enlightenment - Day 1",
+      "url": "https://www.youtube.com/watch?v=rMBiTbnz178",
+      "date": "2026-05-21",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 5124,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/rMBiTbnz178/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "meOd0ej2qZg",
+      "title": "Seven Factors of Enlightenment - Opening",
+      "url": "https://www.youtube.com/watch?v=meOd0ej2qZg",
+      "date": "2026-05-20",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3615,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/meOd0ej2qZg/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "oVBDVS-wyWA",
+      "title": "Seven Factors of Enlightenment",
+      "url": "https://www.youtube.com/watch?v=oVBDVS-wyWA",
+      "date": "2026-05-20",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 2641,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/oVBDVS-wyWA/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "ahgKtDz9nps",
+      "title": "17 May 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=ahgKtDz9nps",
+      "date": "2026-05-17",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3934,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/ahgKtDz9nps/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "kvpjF1QeDLY",
+      "title": "16 May 2026 Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=kvpjF1QeDLY",
+      "date": "2026-05-16",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4137,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/kvpjF1QeDLY/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "Sdk8t9_Ob5Q",
+      "title": "10 May 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=Sdk8t9_Ob5Q",
+      "date": "2026-05-10",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3940,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sdk8t9_Ob5Q/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "JxA1umf4jdg",
+      "title": "9 May 2026 Bhavana Society Dhamma Meetings",
+      "url": "https://www.youtube.com/watch?v=JxA1umf4jdg",
+      "date": "2026-05-09",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4042,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/JxA1umf4jdg/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "1QHJnDc0o5k",
+      "title": "11 April 2026 Anapanasati Sutta | Dhamma Talk by Bhante G",
+      "url": "https://www.youtube.com/watch?v=1QHJnDc0o5k",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4268,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/1QHJnDc0o5k/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "7lDCZrdU11g",
+      "title": "28 Mar 2026 Anapanasati Sutta | Dhamma Talk by Bhante G",
+      "url": "https://www.youtube.com/watch?v=7lDCZrdU11g",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4190,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/7lDCZrdU11g/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "ALTtgEnWzPU",
+      "title": "12 Apr 2026 QnA with Bhante G",
+      "url": "https://www.youtube.com/watch?v=ALTtgEnWzPU",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3971,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/ALTtgEnWzPU/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "jPlRyFtU884",
+      "title": "5 Apr 2026 Questions and Answers with Bhante G",
+      "url": "https://www.youtube.com/watch?v=jPlRyFtU884",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4218,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/jPlRyFtU884/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "m5pSDg_WgW8",
+      "title": "5 Apr 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=m5pSDg_WgW8",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4015,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/m5pSDg_WgW8/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "tsW7DVcwf-U",
+      "title": "12 Apr 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=tsW7DVcwf-U",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 4036,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/tsW7DVcwf-U/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "wIYpWm6K8Uc",
+      "title": "22 Mar 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=wIYpWm6K8Uc",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3900,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/wIYpWm6K8Uc/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "yJ7txEfFTXk",
+      "title": "3 May 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=yJ7txEfFTXk",
+      "date": "2026-05-08",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3849,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/yJ7txEfFTXk/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "NbOWas_qNas",
+      "title": "3 May 2026 Dhamma Q-A with Bhante G",
+      "url": "https://www.youtube.com/watch?v=NbOWas_qNas",
+      "date": "2026-05-03",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 3682,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/NbOWas_qNas/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "Jsob_yjWfNA",
+      "title": "Vesak 2026 - Dhamma Talk",
+      "url": "https://www.youtube.com/watch?v=Jsob_yjWfNA",
+      "date": "2026-05-02",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 5530,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jsob_yjWfNA/hqdefault.jpg",
+      "classification": "review",
+      "type": "Dhamma talk",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "JUFyxTcWzG4",
+      "title": "Vesak 2026 - Higher Ordination",
+      "url": "https://www.youtube.com/watch?v=JUFyxTcWzG4",
+      "date": "2026-05-02",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-06-02",
+      "durationSeconds": 2341,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/JUFyxTcWzG4/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "9jJcAPkfmPs",
+      "title": "26 Apr 2026  Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=9jJcAPkfmPs",
+      "date": "2026-04-26",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3951,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/9jJcAPkfmPs/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "mRwZCYcNtqE",
+      "title": "04-26-2026 Dhamma QA with Bhante G",
+      "url": "https://www.youtube.com/watch?v=mRwZCYcNtqE",
+      "date": "2026-04-26",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3975,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/mRwZCYcNtqE/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "5nK7-tXJP6w",
+      "title": "25 Apr 2026 Anapanasati sutta | Dhamma Talk with Bhante G",
+      "url": "https://www.youtube.com/watch?v=5nK7-tXJP6w",
+      "date": "2026-04-25",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 4796,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/5nK7-tXJP6w/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "A-TnFiJyIgc",
+      "title": "19 Apr 2026 Pali class with Bhante G",
+      "url": "https://www.youtube.com/watch?v=A-TnFiJyIgc",
+      "date": "2026-04-19",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3869,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/A-TnFiJyIgc/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Pali class or language lesson."
+    },
+    {
+      "youtubeId": "C5PQGQcUiL8",
+      "title": "19 Apr 2026 Dhamma Q-A with Bhante G",
+      "url": "https://www.youtube.com/watch?v=C5PQGQcUiL8",
+      "date": "2026-04-19",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3965,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/C5PQGQcUiL8/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "R7H1rXOmO9I",
+      "title": "22 Mar 2026 QnA with Bhante G",
+      "url": "https://www.youtube.com/watch?v=R7H1rXOmO9I",
+      "date": "2026-04-19",
+      "dateSource": "YouTube upload metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 4240,
+      "metadataVerified": true,
+      "liveStatus": "not_live",
+      "sourceTabs": [
+        "videos"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7H1rXOmO9I/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Q&A",
+      "reason": "The title identifies a Q&A session with Bhante G."
+    },
+    {
+      "youtubeId": "d_HReFZQzSU",
+      "title": "18 Apr 2026 Anapanasati Sutta | Dhamma Talk by Bhante G",
+      "url": "https://www.youtube.com/watch?v=d_HReFZQzSU",
+      "date": "2026-04-18",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 4054,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/d_HReFZQzSU/hqdefault.jpg",
+      "classification": "eligible",
+      "type": "Dhamma talk",
+      "reason": "The title identifies a Dhamma teaching by Bhante G."
+    },
+    {
+      "youtubeId": "2NepUUz3ONw",
+      "title": "Four Brahma Viharas - Meditation - Bhante G - April 4th -2026",
+      "url": "https://www.youtube.com/watch?v=2NepUUz3ONw",
+      "date": "2026-04-04",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3736,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/2NepUUz3ONw/hqdefault.jpg",
+      "classification": "excluded",
+      "type": null,
+      "reason": "Standalone guided meditation rather than a Dhamma or Q&A talk."
+    },
+    {
+      "youtubeId": "43j3Z8PeUTg",
+      "title": "Four Brahma Viharas - Bhante G - Metta",
+      "url": "https://www.youtube.com/watch?v=43j3Z8PeUTg",
+      "date": "2026-04-04",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 2852,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/43j3Z8PeUTg/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "Bhante G is named; confirm this is a Dhamma or Q&A talk rather than meditation or a ceremony."
+    },
+    {
+      "youtubeId": "Ge9oz26UfRY",
+      "title": "Challengers in Metta Practice",
+      "url": "https://www.youtube.com/watch?v=Ge9oz26UfRY",
+      "date": "2026-04-04",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3227,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ge9oz26UfRY/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "HX7sOy_cq7g",
+      "title": "Four Brahma viharas Q-A",
+      "url": "https://www.youtube.com/watch?v=HX7sOy_cq7g",
+      "date": "2026-04-04",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 4994,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/HX7sOy_cq7g/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "1Z1rewWQ3fs",
+      "title": "Four Brahma Viharas - Q&A April 3rd 2026",
+      "url": "https://www.youtube.com/watch?v=1Z1rewWQ3fs",
+      "date": "2026-04-03",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3871,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/1Z1rewWQ3fs/hqdefault.jpg",
+      "classification": "review",
+      "type": "Q&A",
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "5fa9Hb23x1I",
+      "title": "Metta",
+      "url": "https://www.youtube.com/watch?v=5fa9Hb23x1I",
+      "date": "2026-04-03",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 2925,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fa9Hb23x1I/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "6bQ0eZvoG9c",
+      "title": "Four Brahma Viharas -  Compassion (Karuna)",
+      "url": "https://www.youtube.com/watch?v=6bQ0eZvoG9c",
+      "date": "2026-04-03",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 4152,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/6bQ0eZvoG9c/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    },
+    {
+      "youtubeId": "bFM2Jt5M-CY",
+      "title": "Metta Meditation",
+      "url": "https://www.youtube.com/watch?v=bFM2Jt5M-CY",
+      "date": "2026-04-03",
+      "dateSource": "YouTube broadcast metadata",
+      "dateTimezone": "UTC",
+      "approximateDate": "2026-05-02",
+      "durationSeconds": 3061,
+      "metadataVerified": true,
+      "liveStatus": "was_live",
+      "sourceTabs": [
+        "streams"
+      ],
+      "thumbnailUrl": "https://i.ytimg.com/vi/bFM2Jt5M-CY/hqdefault.jpg",
+      "classification": "review",
+      "type": null,
+      "reason": "The title does not identify Bhante G clearly; confirm the speaker and subject."
+    }
+  ]
+}

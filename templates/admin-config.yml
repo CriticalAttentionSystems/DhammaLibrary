@@ -23,7 +23,7 @@
       "extension": "json",
       "identifier_field": "title",
       "slug": "{{fields.id}}",
-      "summary": "{{title}} · {{type}} · {{date}}",
+      "summary": "{{title}} \u00b7 {{type}} \u00b7 {{date}}",
       "sortable_fields": [
         "title",
         "date"
@@ -54,7 +54,7 @@
           "widget": "string",
           "pattern": [
             "^https://(www\\.)?youtube\\.com/watch\\?v=[A-Za-z0-9_-]{11}(&.*)?$",
-            "Use the full https://www.youtube.com/watch?v=… link."
+            "Use the full https://www.youtube.com/watch?v=\u2026 link."
           ]
         },
         {
@@ -135,6 +135,67 @@
           "default": false,
           "required": false,
           "hint": "Leave off when proposing a new talk. The owner reviews the content and approves publication."
+        }
+      ],
+      "description": "Before starting a new talk, reserve it on the Talks to add page. Keep the YouTube video ID unchanged when correcting an existing entry."
+    },
+    {
+      "name": "discoveryReviews",
+      "label": "Discovery decisions",
+      "label_singular": "Discovery decision",
+      "folder": "content/discovery-reviews",
+      "create": true,
+      "delete": false,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "youtubeId",
+      "slug": "{{fields.youtubeId}}",
+      "summary": "{{youtubeId}} \u00b7 {{decision}}",
+      "description": "Resolve uncertain videos after checking the recording. Decisions are reviewed before publication. Exclude reuploads already covered by another video ID.",
+      "fields": [
+        {
+          "name": "youtubeId",
+          "label": "YouTube video ID",
+          "widget": "string",
+          "pattern": [
+            "^[A-Za-z0-9_-]{11}$",
+            "Enter the exact 11-character ID. Capitalization matters."
+          ]
+        },
+        {
+          "name": "decision",
+          "label": "Decision",
+          "widget": "select",
+          "options": [
+            "eligible",
+            "excluded"
+          ]
+        },
+        {
+          "name": "type",
+          "label": "Talk type (required for eligible)",
+          "widget": "select",
+          "options": [
+            "Dhamma talk",
+            "Q&A"
+          ],
+          "required": false
+        },
+        {
+          "name": "reason",
+          "label": "Reason",
+          "widget": "text"
+        },
+        {
+          "name": "duplicateOf",
+          "label": "Already covered by video ID",
+          "widget": "string",
+          "required": false,
+          "hint": "For reuploads: choose excluded and enter the video already in the library.",
+          "pattern": [
+            "^$|^[A-Za-z0-9_-]{11}$",
+            "Leave blank or enter a video ID."
+          ]
         }
       ]
     }

@@ -1,0 +1,30 @@
+name: Contribution check
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review, edited]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  duplicate-talk-check:
+    name: Check talk contributions
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Never check out or execute a fork's code in pull_request_target.
+      # The script reads proposed JSON using GitHub's API and treats it as data.
+      - name: Check out trusted default-branch validation
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate new talks and detect overlapping contributions
+        run: node scripts/check-contributions.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

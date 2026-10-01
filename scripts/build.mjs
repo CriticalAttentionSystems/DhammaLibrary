@@ -1,6 +1,8 @@
 import { readFile, writeFile, readdir, mkdir, cp, rm, access } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
+import { readContributionData } from './contribution-data.mjs';
 import { escapeHtml as e, prepareTalks } from './content.mjs';
 import { latestTalks, selectTalks, talkRow, pagination, archiveUrl } from '../public/assets/talks.js';
 
@@ -8,7 +10,11 @@ const root = fileURLToPath(new URL('../',import.meta.url));
 const dist = path.join(root,'dist');
 const talkDir = path.join(root,'content/talks');
 const files = (await readdir(talkDir)).filter(file => file.endsWith('.json'));
-const talks = prepareTalks(await Promise.all(files.map(async file => JSON.parse(await readFile(path.join(talkDir,file),'utf8')))));
+const raw = await Promise.all(files.map(file => readFile(path.join(talkDir,file))));
+const records = raw.map(bytes=>JSON.parse(bytes.toString('utf8')));
+const talks = prepareTalks(records);
+const library = records.map((record,i)=>({path:`content/talks/${files[i]}`,blobSha:createHash('sha1').update(`blob ${raw[i].length}\0`).update(raw[i]).digest('hex'),youtubeId:record.youtubeId,published:record.published,...(record.published ? {id:record.id,title:record.title,type:record.type} : {})}));
+const contributionData = await readContributionData(root);
 if (!talks.length) throw new Error('Add at least one approved talk to content/talks before building.');
 for (const talk of talks) {
   if (talk.thumbnailUrl?.startsWith('/')) await access(path.join(root,'public',talk.thumbnailUrl));
@@ -31,6 +37,10 @@ const latest = latestTalks(talks);
 await writeFile(path.join(dist,'index.html'),template.replace('{{COUNT}}',latest.length).replace('{{TALK_ROWS}}',latest.map(talkRow).join('\n')).replace('{{CANONICAL}}',canonical('/')));
 const archiveTemplate = await readFile(path.join(root,'templates/talks.html'),'utf8');
 const footer = template.match(/<footer class="site-footer[\s\S]*?<\/footer>/)[0];
+const queueTemplate = await readFile(path.join(root,'templates/contribute-talks.html'),'utf8');
+const queueData = JSON.stringify({repository,library,...contributionData}).replaceAll('<','\u005cu003c');
+await mkdir(path.join(dist,'contribute/talks'),{recursive:true});
+await writeFile(path.join(dist,'contribute/talks/index.html'),queueTemplate.replace('{{QUEUE_DATA}}',queueData).replace('{{FOOTER}}',footer).replace('{{CANONICAL}}',canonical('/contribute/talks/')));
 const summaryDialog = template.match(/  <dialog[\s\S]*?(?=<\/body>)/)[0];
 const archiveUrls = [];
 const archiveFilters = {q:'',from:'',to:'',type:'all',page:1};
