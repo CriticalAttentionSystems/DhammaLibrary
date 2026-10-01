@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="15" fill="#234a38"/>
-  <g fill="none" stroke="#f4edda" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M32 11.2C24 20.8 24 30.4 32 40C40 30.4 40 20.8 32 11.2Z"/>
-    <path d="M11.2 25.6C11.2 41.6 16 49.6 27.2 51.2C27.2 38.4 20.8 30.4 11.2 25.6Z"/>
-    <path d="M52.8 25.6C52.8 41.6 48 49.6 36.8 51.2C36.8 38.4 43.2 30.4 52.8 25.6Z"/>
+  <defs>
+    <path id="leaf" d="M32 47C32 42 24 36 24 31C24 24 28 20 32 15C36 20 40 24 40 31C40 36 32 42 32 47Z"/>
+  </defs>
+  <g fill="#234a38" stroke="#f4edda" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#leaf" transform="rotate(-60 32 47)"/>
+    <use href="#leaf" transform="rotate(60 32 47)"/>
+    <use href="#leaf"/>
   </g>
 </svg>
